@@ -27,14 +27,6 @@ public class Main {
         System.out.println();
         int[] ints1 = {1, 2, 3, 4, 5};
         for (int i = 0; i < ints1.length; i++) {
-            if (i == ints1.length - 1) {
-                System.out.print(ints1[i]);
-                break;
-            }
-            System.out.print(ints1[i] + ", ");
-        }
-        System.out.println();
-        for (int i = 0; i < ints1.length; i++) {
             System.out.print(ints1[i]);
             if (i < ints1.length - 1) {
                 System.out.print(", ");
@@ -52,7 +44,7 @@ public class Main {
         System.out.println();
         System.out.println("Задача 4");
         System.out.println();
-        int[] ints2 = {-1, -2, -3, -4, -5};
+        int[] ints2 = {1, 2, 3, 4, 5};
         for (int i = 0; i < ints2.length; i++) {
             if (ints2[i] % 2 != 0) {
                 ints2[i]++;
